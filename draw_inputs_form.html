@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<body>
+<form method="post" action="index.php">
+    <p><b>Draw Div Settings</b></p>
+    <label for="x_pos">Position X:</label>
+    <input type="number" id="x_pos" name="x_pos" value="200"/>
+    <br><br>
+    <label for="y_pos">Position Y:</label>
+    <input type="number" id="y_pos" name="y_pos" value="100"/>
+    <br><br>
+    <label for="height">Height:</label>
+    <input type="number" id="height" name="height" value="200"/>
+    <br><br>
+    <label for="width">Width:</label>
+    <input type="number" id="width" name="width" value="200"/>
+    <br><br>
+    <label for="color">Color:</label>
+    <select id="color" name="color">
+        <option value="black">Black</option>
+        <option value="gray" selected>Gray</option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Draw" name="submit">
+</form>
+</body>
+</html>
